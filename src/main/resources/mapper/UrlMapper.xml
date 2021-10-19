@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mindskip.xzs.repository.UrlMapper">
+    <resultMap id="BaseResultMap" type="com.mindskip.xzs.domain.CompanyUrl">
+        <id column="id" jdbcType="INTEGER" property="id" />
+        <result column="company_id" jdbcType="INTEGER" property="companyId" />
+        <result column="url" jdbcType="VARCHAR" property="url" />
+    </resultMap>
+    <sql id="table">t_url</sql>
+    <sql id="Base_Column_List">
+    id, company_id,url
+    </sql>
+    <select id="getUrlByCompanyId" parameterType="java.lang.Integer" resultType="java.lang.String">
+        select
+        url
+        from t_url
+        where company_id = #{companyId,jdbcType=INTEGER}
+    </select>
+
+
+</mapper>
