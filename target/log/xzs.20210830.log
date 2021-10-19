@@ -1,0 +1,80 @@
+2021-08-30 15:08:10.546  INFO 15248 --- [main] com.mindskip.xzs.XzsApplication          : Starting XzsApplication v3.4.0 on Liang with PID 15248 (D:\桌面\学之思开源考试系统\xzs-mysql-master\source\xzs\target\xzs-3.4.0.jar started by Liang in D:\桌面\学之思开源考试系统\xzs-mysql-master\source\xzs\target)
+2021-08-30 15:08:10.549  INFO 15248 --- [main] com.mindskip.xzs.XzsApplication          : The following profiles are active: dev
+2021-08-30 15:08:11.559  INFO 15248 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-30 15:08:11.565  INFO 15248 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-08-30 15:08:11.669  INFO 15248 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43ms. Found 0 repository interfaces.
+2021-08-30 15:08:12.146  INFO 15248 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'cacheConfig' of type [com.mindskip.xzs.configuration.spring.cache.CacheConfig$$EnhancerBySpringCGLIB$$5dae3011] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-30 15:08:12.155  INFO 15248 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$846a1fd0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-30 15:08:13.782  WARN 15248 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-08-30 15:08:13.816  INFO 15248 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2021-08-30 15:08:13.817  INFO 15248 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3208 ms
+2021-08-30 15:08:15.917  INFO 15248 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@60129b9a, org.springframework.security.web.context.SecurityContextPersistenceFilter@4f3bbf68, org.springframework.security.web.header.HeaderWriterFilter@12359a82, org.springframework.web.filter.CorsFilter@78d6692f, org.springframework.security.web.authentication.logout.LogoutFilter@59a008ba, com.mindskip.xzs.configuration.spring.security.RestLoginAuthenticationFilter@4bff7da0, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@600b90df, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3f91b517, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2421cc4, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@d41f816, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7a55af6b, org.springframework.security.web.session.SessionManagementFilter@479460a6, org.springframework.security.web.access.ExceptionTranslationFilter@6239aba6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@15713d56]
+2021-08-30 15:08:16.583  INFO 15248 --- [main] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2021-08-30 15:08:16.585  INFO 15248 --- [main] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2021-08-30 15:08:19.951  INFO 15248 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2021-08-30 15:08:20.000  INFO 15248 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2021-08-30 15:08:20.018  INFO 15248 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2021-08-30 15:08:20.150  INFO 15248 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-08-30 15:08:20.153 ERROR 15248 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8000 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8000 or configure this application to listen on another port.
+
+2021-08-30 15:08:37.194  INFO 24600 --- [main] com.mindskip.xzs.XzsApplication          : Starting XzsApplication v3.4.0 on Liang with PID 24600 (D:\桌面\学之思开源考试系统\xzs-mysql-master\source\xzs\target\xzs-3.4.0.jar started by Liang in D:\桌面\学之思开源考试系统\xzs-mysql-master\source\xzs\target)
+2021-08-30 15:08:37.197  INFO 24600 --- [main] com.mindskip.xzs.XzsApplication          : The following profiles are active: dev
+2021-08-30 15:08:38.260  INFO 24600 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-30 15:08:38.266  INFO 24600 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-08-30 15:08:38.343  INFO 24600 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51ms. Found 0 repository interfaces.
+2021-08-30 15:08:38.864  INFO 24600 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'cacheConfig' of type [com.mindskip.xzs.configuration.spring.cache.CacheConfig$$EnhancerBySpringCGLIB$$2d705d50] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-30 15:08:38.873  INFO 24600 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$542c4d0f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-30 15:08:40.599  WARN 24600 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-08-30 15:08:40.629  INFO 24600 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2021-08-30 15:08:40.630  INFO 24600 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3336 ms
+2021-08-30 15:08:42.945  INFO 24600 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3d9c13b5, org.springframework.security.web.context.SecurityContextPersistenceFilter@68702e03, org.springframework.security.web.header.HeaderWriterFilter@7164ca4c, org.springframework.web.filter.CorsFilter@492691d7, org.springframework.security.web.authentication.logout.LogoutFilter@58ce9668, com.mindskip.xzs.configuration.spring.security.RestLoginAuthenticationFilter@776a6d9b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5c2375a9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2421cc4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@338c99c8, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@78d6692f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@27216cd, org.springframework.security.web.session.SessionManagementFilter@5be46f9d, org.springframework.security.web.access.ExceptionTranslationFilter@68df9280, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@600b90df]
+2021-08-30 15:08:43.777  INFO 24600 --- [main] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2021-08-30 15:08:43.781  INFO 24600 --- [main] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2021-08-30 15:08:47.153  INFO 24600 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2021-08-30 15:08:47.188  INFO 24600 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2021-08-30 15:08:47.201  INFO 24600 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2021-08-30 15:08:47.296  INFO 24600 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 8000 (http) with context path ''
+2021-08-30 15:08:47.300  INFO 24600 --- [main] com.mindskip.xzs.XzsApplication          : Started XzsApplication in 10.806 seconds (JVM running for 11.399)
+2021-08-30 15:10:13.273  INFO 24600 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-30 15:10:13.274  INFO 24600 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-30 15:10:13.284  INFO 24600 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2021-08-30 15:10:14.087  INFO 24600 --- [XNIO-1 task-36] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-30 15:10:14.508  INFO 24600 --- [XNIO-1 task-36] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-30 15:10:14.522 DEBUG 24600 --- [XNIO-1 task-36] r.c.m.x.r.T.getByGradeLevel              : ==>  Preparing: select id, title, grade_level, frame_text_content_id, create_user, create_time, deleted, create_user_name from t_task_exam where deleted=0 and grade_level = ? 
+2021-08-30 15:10:14.522 DEBUG 24600 --- [XNIO-1 task-35] r.c.m.x.r.ExamPaperMapper.indexPaper     : ==>  Preparing: SELECT id,name,limit_start_time,limit_end_time FROM t_exam_paper WHERE deleted=0 and paper_type= ? and grade_level=? ORDER BY id desc limit 5 
+2021-08-30 15:10:14.522 DEBUG 24600 --- [XNIO-1 task-31] r.c.m.x.r.MessageUserMapper.unReadCount  : ==>  Preparing: select count(*) from t_message_user where readed='f' and receive_user_id = ? 
+2021-08-30 15:10:14.557 DEBUG 24600 --- [XNIO-1 task-36] r.c.m.x.r.T.getByGradeLevel              : ==> Parameters: 1(Integer)
+2021-08-30 15:10:14.557 DEBUG 24600 --- [XNIO-1 task-31] r.c.m.x.r.MessageUserMapper.unReadCount  : ==> Parameters: 1(Integer)
+2021-08-30 15:10:14.557 DEBUG 24600 --- [XNIO-1 task-35] r.c.m.x.r.ExamPaperMapper.indexPaper     : ==> Parameters: 1(Integer), 1(Integer)
+2021-08-30 15:10:14.598 DEBUG 24600 --- [XNIO-1 task-35] r.c.m.x.r.ExamPaperMapper.indexPaper     : <==      Total: 0
+2021-08-30 15:10:14.598 DEBUG 24600 --- [XNIO-1 task-36] r.c.m.x.r.T.getByGradeLevel              : <==      Total: 0
+2021-08-30 15:10:14.600 DEBUG 24600 --- [XNIO-1 task-31] r.c.m.x.r.MessageUserMapper.unReadCount  : <==      Total: 1
+2021-08-30 15:10:14.603 DEBUG 24600 --- [XNIO-1 task-35] r.c.m.x.r.ExamPaperMapper.indexPaper     : ==>  Preparing: SELECT id,name,limit_start_time,limit_end_time FROM t_exam_paper WHERE deleted=0 and paper_type= ? and grade_level=? and ? between limit_start_time and limit_end_time ORDER BY id desc limit 5 
+2021-08-30 15:10:14.606 DEBUG 24600 --- [XNIO-1 task-35] r.c.m.x.r.ExamPaperMapper.indexPaper     : ==> Parameters: 4(Integer), 1(Integer), 2021-08-30 15:10:14.602(Timestamp)
+2021-08-30 15:10:14.608 DEBUG 24600 --- [XNIO-1 task-35] r.c.m.x.r.ExamPaperMapper.indexPaper     : <==      Total: 0
+2021-08-30 15:10:30.914 DEBUG 24600 --- [XNIO-1 task-49] r.c.m.x.r.E.studentPage_COUNT            : ==>  Preparing: SELECT count(0) FROM t_exam_paper_question_customer_answer WHERE do_right = FALSE AND create_user = ? 
+2021-08-30 15:10:30.915 DEBUG 24600 --- [XNIO-1 task-49] r.c.m.x.r.E.studentPage_COUNT            : ==> Parameters: 1(Integer)
+2021-08-30 15:10:30.918 DEBUG 24600 --- [XNIO-1 task-49] r.c.m.x.r.E.studentPage_COUNT            : <==      Total: 1
+2021-08-30 15:10:31.718 DEBUG 24600 --- [XNIO-1 task-50] r.c.m.x.r.E.studentPage_COUNT            : ==>  Preparing: SELECT count(0) FROM t_exam_paper_answer WHERE create_user = ? 
+2021-08-30 15:10:31.718 DEBUG 24600 --- [XNIO-1 task-50] r.c.m.x.r.E.studentPage_COUNT            : ==> Parameters: 1(Integer)
+2021-08-30 15:10:31.720 DEBUG 24600 --- [XNIO-1 task-50] r.c.m.x.r.E.studentPage_COUNT            : <==      Total: 1
+2021-08-30 15:10:33.071 DEBUG 24600 --- [XNIO-1 task-51] r.c.m.x.r.U.insertSelective              : ==>  Preparing: insert into t_user_event_log ( user_id, user_name, real_name, content, create_time ) values ( ?, ?, ?, ?, ? ) 
+2021-08-30 15:10:33.073 DEBUG 24600 --- [XNIO-1 task-51] r.c.m.x.r.U.insertSelective              : ==> Parameters: 1(Integer), student(String), 学生(String), student 登出了学之思开源考试系统(String), 2021-08-30 15:10:33.07(Timestamp)
+2021-08-30 15:10:33.082 DEBUG 24600 --- [XNIO-1 task-51] r.c.m.x.r.U.insertSelective              : <==    Updates: 1
+2021-08-30 15:20:54.114  INFO 24600 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-08-30 15:20:54.136  INFO 24600 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-08-30 15:20:55.270  INFO 24600 --- [Thread-2] io.undertow.servlet                      : Destroying Spring FrameworkServlet 'dispatcherServlet'
